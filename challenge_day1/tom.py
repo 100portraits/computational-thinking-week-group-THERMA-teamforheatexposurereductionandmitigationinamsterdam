@@ -1,2 +1,2 @@
 def printName():
-    print("Tom")
+    return("Tom")
