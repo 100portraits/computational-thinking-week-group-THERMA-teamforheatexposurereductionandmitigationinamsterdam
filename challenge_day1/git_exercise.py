@@ -49,3 +49,4 @@ def story():
     print(teun.p3(c1, c2, c3, c4, c5, c6))
     print(tom.p3(c1, c2, c3, c4, c5, c6))
     
+story()
