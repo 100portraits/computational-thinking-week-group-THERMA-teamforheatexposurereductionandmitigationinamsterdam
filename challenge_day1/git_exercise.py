@@ -16,7 +16,7 @@ def fun():
     print("This is Team THERMA - teamforheatexposurereductionandmitigationinamsterdam. We are:")
     print(Kian.name())
     print(Ameer.get_name())
-    print(gonzalo.name1())
+    print(gonzalo.name())
     print(sahir.name())
     print(teun.printName())
     print(tom.printName())
