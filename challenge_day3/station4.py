@@ -15,8 +15,3 @@ def is_prime(i):
                 return False
             divisor += 6
         return True
-
-
-
-for i in range(0, 23):
-    print(solution_station_4(i))
