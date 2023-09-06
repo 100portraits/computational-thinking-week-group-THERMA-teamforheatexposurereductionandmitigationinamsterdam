@@ -6,4 +6,4 @@ def solution_station_5(name):
         if name in members_dict[i]:
             ans=i
 
-    return ans
+    return int(ans)

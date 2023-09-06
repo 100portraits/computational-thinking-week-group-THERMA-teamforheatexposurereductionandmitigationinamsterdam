@@ -22,4 +22,4 @@ def solution_station_1(input):
         if input not in fibonacci_dict:
             fibonacci_dict[input] = output
 
-    return output
+    return int(output)

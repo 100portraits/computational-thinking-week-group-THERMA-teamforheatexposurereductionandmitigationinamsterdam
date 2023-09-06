@@ -6,4 +6,4 @@ def solution_station_2(string):
 
     days = ["月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日", "日曜日"]
 
-    return days[day_num]
+    return str(days[day_num])
