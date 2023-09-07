@@ -11,7 +11,11 @@ SummaryMetaTable = {
 
 -- Read data from `data4.txt`
 local lines = {}
+<<<<<<< HEAD
 for line in io.lines("../fulldata/data4.txt") do
+=======
+for line in io.lines("../testdata/data4.txt") do
+>>>>>>> e205d47199e02ff93658bf627dc070a4c48eb870
     table.insert(lines, line)
 end
 
@@ -46,7 +50,11 @@ for _, line in ipairs(lines) do
 end
 
 -- Write data to `data5.txt`
+<<<<<<< HEAD
 local out = io.open("../fulldata/data5.txt", "w")
+=======
+local out = io.open("../testdata/data5.txt", "w")
+>>>>>>> e205d47199e02ff93658bf627dc070a4c48eb870
 out:write("Name,Technical Skills,Soft Skills,Business Skills,Creative Skills,Academic Skills,Summary\n")
 for _, entry in ipairs(people) do
     out:write(table.concat(entry, ',') .. "\n")
